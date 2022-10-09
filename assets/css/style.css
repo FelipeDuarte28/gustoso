@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(255, 249, 241, 0.526);
+}
+
+.header {
+    height: 8em;
+    padding: 1em;
+    font-size: 2em;
+    color: #fb7d00;
+    background-image: url("../imgs/huevoFondoAzul.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fdb347;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.producto img {
+    width: 20em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.producto p {
+    width: 50%;
+    padding: 1em;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(250, 246, 236);
+}
